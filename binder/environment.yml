@@ -1,4 +1,23 @@
+name: base
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
 dependencies:
-  - matplotlib
-  - numpy
-  - pandas
+  - python=3.7.7
+  - r=3.5.3
+  - r-dplyr
+  - r-ggplot2
+  - r-reshape2
+  - r-tidyverse
+  - r-plotly
+  - r-stringr
+  - pip
+  - pip:
+    - plotly
+    - pandas
+    - matplotlib
+    - scikit-learn
+    - numpy
